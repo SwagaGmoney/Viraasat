@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.viraasattechnologies.com/",
+  "homepage": "https://swagagmoney.github.io/Viraasat",
   "name": "my-virasat",
   "version": "0.1.0",
   "private": false,
@@ -12,6 +12,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "caniuse-lite": "^1.0.30001551",
     "framer-motion": "^10.12.17",
     "react": "^18.2.0",
     "react-calendly": "^4.1.1",
