@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Viraasat/static/css/main.559120bf.css",
-    "main.js": "/Viraasat/static/js/main.9f15686e.js",
+    "main.js": "/Viraasat/static/js/main.b6a39df9.js",
     "static/js/872.4f129009.chunk.js": "/Viraasat/static/js/872.4f129009.chunk.js",
     "static/js/227.b093417b.chunk.js": "/Viraasat/static/js/227.b093417b.chunk.js",
     "static/js/526.b71802af.chunk.js": "/Viraasat/static/js/526.b71802af.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/seo-marketing.png": "/Viraasat/static/media/seo-marketing.9fe9f32c8eaae4e66564.png",
     "index.html": "/Viraasat/index.html",
     "main.559120bf.css.map": "/Viraasat/static/css/main.559120bf.css.map",
-    "main.9f15686e.js.map": "/Viraasat/static/js/main.9f15686e.js.map",
+    "main.b6a39df9.js.map": "/Viraasat/static/js/main.b6a39df9.js.map",
     "872.4f129009.chunk.js.map": "/Viraasat/static/js/872.4f129009.chunk.js.map",
     "227.b093417b.chunk.js.map": "/Viraasat/static/js/227.b093417b.chunk.js.map",
     "526.b71802af.chunk.js.map": "/Viraasat/static/js/526.b71802af.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.559120bf.css",
-    "static/js/main.9f15686e.js"
+    "static/js/main.b6a39df9.js"
   ]
 }
