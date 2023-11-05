@@ -46,7 +46,7 @@ const ContactPg = () => {
 
                 <motion.div style={{ x, y, rotateX, rotateY, z: 100 }} drag dragElastic={0.18} dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }} whileTap={{ cursor: 'grabbing' }}
 
-x                    className="lg:w-[400px] min-h-[300px] xsm:w-[300px] sm:w-[400px]  xl:w-[400px]   bg-[#e4dfdc44] p-[10px] px-[40px] py-[25px] m-[100px_auto] border-[4px] border-white shadow-[14px_10px_10px_10px_rgb(0,0,0,0.1)] rounded-br-[80px] rounded-tl-[80px] cursor-grab relative lg:left-[25em] "
+               className="lg:w-[400px] min-h-[300px] xsm:w-[300px] sm:w-[400px]  xl:w-[400px]   bg-[#e4dfdc44] p-[10px] px-[40px] py-[25px] m-[100px_auto] border-[4px] border-white shadow-[14px_10px_10px_10px_rgb(0,0,0,0.1)] rounded-br-[80px] rounded-tl-[80px] cursor-grab relative lg:left-[25em] "
 
                 >
                     <h1 className="text-center lg:text-xl font-bold py-4">Get In Touch</h1>

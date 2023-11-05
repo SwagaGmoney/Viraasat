@@ -9,7 +9,8 @@
   font-weight: bold;
   position: absolute;
   top:-15vh;
-  left:10vw;
+  left: 50%; /* Use 50% for centering */
+  transform: translateX(-50%); /* Center the cube-container */
   transform: translate(-50%, -50%);
   perspective: 800px;
 }
@@ -199,7 +200,7 @@
     width:150px;
     justify-content: center;
     align-items: center;
-    left:-1.4rem;
+   left:0;
   }
   .cube-face{
     width: 150px;
@@ -299,26 +300,26 @@
     width:300px;
     justify-content: center;
     align-items: center;
-    left:5rem;
+    left:7rem;
   }
   .cube-container2{ 
-  left:49rem;
+  left:65rem;
   
   }
   .cube-container1{ 
-  left:28rem;
+  left:35rem;
   }
   .cube-container3{
     top:8em;
-    left:3rem;
+    left:8rem;
    }
    .cube-container4{
     top:9em;
-    left:26rem;
+    left:38rem;
    }
    .cube-container5{
     top:10em;
-    left:49rem;
+    left:70rem;
    }
   .cube-face{
     width:300px;

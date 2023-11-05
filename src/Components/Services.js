@@ -95,7 +95,7 @@ const Services = () => {
                             <FontAwesomeIcon icon={faArrowCircleRight} size="lg" />
                         </button>
                     </div>
-                    <div className={`cube-face back `} id="back">
+                    <div className={`cube-face back `}onClick={()=> setIsRotated(false)} id="back">
                         <div className="cube-face back">
                             <ul className="text-center justify-center items-center relative lg:top-[-7em] xsm:top-[-8em]   ">
                                 <li className=" text-white sm:text-xs md:text-xs px-2 py-20 xsm:text-xs lg:text-sm ">
@@ -115,7 +115,7 @@ const Services = () => {
                         <h2 className="lg:text-lg font-semibold text-black items-center ml-2 mt-[1em] xsm:text-sm "> Marketing & SEO Optimization </h2>
                         <button onClick={toggleMove} className="relative text-sm lg:top-[-0.5rem] lg:left-[-4rem] xsm:left-[-0.4rem] sm:left-[0rem] "> <FontAwesomeIcon icon={faArrowCircleRight} size="xl"></FontAwesomeIcon></button>
                     </div>
-                    <div className={`cube-face back `} id="back1">
+                    <div className={`cube-face back `}  onClick={()=> setIsRotate(false)} id="back1">
                     <ul className="text-center justify-center items-center relative lg:top-[-4em] sm:top-[-5em] xsm:top-[-5em] ">
                          <li className=" text-white xsm:text-xs lg:text-sm sm:text-xs md:text-xs px-2 py-20 ">
                          Our SEO optimization boosts your website's discoverability, driving organic traffic to your business.We provide ongoing support, maintenance, and stunning graphic design for a captivating online presence.
@@ -135,13 +135,13 @@ const Services = () => {
 
                         <button onClick={toggleMoved} className="relative text-sm lg:top-[-0.5rem] lg:left-[-4rem] xsm:left-[0rem] sm:top-[0rem] sm:left-[0rem] xsm:top-0 "><FontAwesomeIcon icon={faArrowCircleRight} size="xl"></FontAwesomeIcon></button>
                     </div>
-                    <div className={`cube-face back `} id="back2">
-                        <p> <ul className="flex justify-self-center text-center relative top-[-5em] 	">
+                    <div className={`cube-face back `}  onClick={()=> setIsMove(false)} id="back2">
+                       <ul className="flex justify-self-center text-center relative top-[-5em] 	">
                         <li className=" text-white xsm:text-xs lg:text-sm sm:text-sm md:text-xs px-2 py-20 ">
                         Unlock NLP's power for precise insights and data-driven decisions that resonate with your audience.Enhance engagement with 24/7 NLP-driven chatbots, elevate content, and connect with  audience.
                         </li>
                         </ul>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@ const Services = () => {
 
                         <button onClick={toggleMover} className="relative text-sm lg:top-[-0.5rem] lg:left-[-4rem] xsm:top-[0rem] xsm:left-[0rem] sm:left-[0rem]  "> <FontAwesomeIcon icon={faArrowCircleRight} size="xl"></FontAwesomeIcon></button>
                     </div>
-                    <div className={`cube-face back `} id="back3">
+                    <div className={`cube-face back `} onClick={()=> setIsMoved(false)} id="back3">
                          <ul className="flex justify-self-center text-center relative top-[-4em]	">
                         <li className=" text-white xsm:text-[9.5px] lg:text-sm sm:text-xs md:text-[9.8px]  px-2 py-8 ">
                          Streamline operations and embrace automation with our AI/ML application development services, driving efficiency and innovation.Gain data-driven insights, optimize resources, and stay ahead of the competition with our AI/ML-powered solutions for informed decision-making and product innovation.
@@ -174,7 +174,7 @@ const Services = () => {
 
                         <button onClick={toggleTurn} className="relative text-sm lg:top-[-0.5rem] lg:left-[-4rem] xsm:top-[0rem] xsm:left-[0rem] sm:left-[0rem] "> <FontAwesomeIcon icon={faArrowCircleRight} size="xl"></FontAwesomeIcon></button>
                     </div>
-                    <div className={`cube-face back `} id="back4">
+                    <div className={`cube-face back `} onClick={()=> setIsTurn(false)} id="back4">
                          <ul className="flex justify-self-center text-center relative top-[-3.5em]	">
                             <li  className=" text-white xsm:text-[9.5px] lg:text-sm sm:text-sm md:text-[9px] px-2 py-8 ">Harness cutting-edge AI/ML tech for streamlined operations and data-driven insights, embracing automation and innovation.Transform products with our AI/ML expertise, driving personalized experiences and staying ahead of the competition.</li>
                         </ul>
@@ -191,7 +191,7 @@ const Services = () => {
                         <button onClick={toggleTurned} className="relative text-sm lg:top-[0rem] lg:left-[-4rem] xsm:left-[0rem] xsm:top-[0rem] sm:left-[0rem]"> <FontAwesomeIcon icon={faArrowCircleRight} size="xl"> </FontAwesomeIcon></button>
 
                     </div>
-                    <div className={`cube-face back `} id="back5">
+                    <div className={`cube-face back `} onClick={()=> setIsTurned(false)} id="back5">
                          <ul className="flex justify-self-center text-center relative top-[-3.5em] 	">
                           <li className=" text-white xsm:text-[9.5px] lg:text-sm sm:text-sm md:text-[8px]  px-2 py-8 ">Revolutionize visual data with our computer vision solutions, transforming images into actionable insights for better decision-making.Optimize operations and engage customers with immersive experiences using computer vision, setting your brand apart in a visually-driven world.</li>
                         </ul>

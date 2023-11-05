@@ -12,14 +12,23 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+  const handlePageRefresh = () => {
+    // Log something
+    console.log("H2 Clicked");
+
+    // Reload the window
+    window.location.reload();
+  };
+
   return (
     
     <nav className={`bg-cyan-100 w-full sticky top-0 z-10 md:opacity-80`}>
       <div className="flex items-center justify-between py-4 px-6">
         {/* Logo */}
-        <div>
+        <div onClick={handlePageRefresh}>
           <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
-          <h2 className="lg:text-3xl font-bold text-gray-800 absolute lg:top-[1em] lg:left-[5em] xsm:left-[6em] xsm:top-[2em] xsm:text-xl bg-gradient-to-r from-purple-400 via-yellow-400 to-pink-400 text-transparent bg-clip-text"> Viraasat Technologies </h2>
+          <h2  className="lg:text-3xl font-bold text-gray-800 absolute lg:top-[1em] lg:left-[5em] xsm:left-[6em] xsm:top-[2em] xsm:text-xl bg-gradient-to-r from-purple-400 via-yellow-400 to-pink-400 text-transparent bg-clip-text hover:cursor-pointer"> Viraasat Technologies </h2>
 
         </div>
 
