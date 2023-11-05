@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Viraasat/static/css/main.27fa5646.css",
-    "main.js": "/Viraasat/static/js/main.24301153.js",
-    "static/js/872.4f129009.chunk.js": "/Viraasat/static/js/872.4f129009.chunk.js",
-    "static/js/227.b093417b.chunk.js": "/Viraasat/static/js/227.b093417b.chunk.js",
-    "static/js/526.87785427.chunk.js": "/Viraasat/static/js/526.87785427.chunk.js",
-    "static/js/232.4892eaff.chunk.js": "/Viraasat/static/js/232.4892eaff.chunk.js",
-    "static/js/237.7a180382.chunk.js": "/Viraasat/static/js/237.7a180382.chunk.js",
-    "static/media/computer-vision.png": "/Viraasat/static/media/computer-vision.0c28484f3baa99e99f73.png",
-    "static/media/Virasat-logo.png": "/Viraasat/static/media/Virasat-logo.cda8cac956c168ab5e77.png",
-    "static/media/deep.png": "/Viraasat/static/media/deep.941464ea54222a5c4c3d.png",
-    "static/media/web-dev-1.png": "/Viraasat/static/media/web-dev-1.84a610df4772b945d194.png",
-    "static/media/ai.png": "/Viraasat/static/media/ai.775e93f7680dafebe12f.png",
-    "static/media/NLP.png": "/Viraasat/static/media/NLP.2decab8351459c4db454.png",
-    "static/media/seo-marketing.png": "/Viraasat/static/media/seo-marketing.9fe9f32c8eaae4e66564.png",
-    "index.html": "/Viraasat/index.html",
-    "main.27fa5646.css.map": "/Viraasat/static/css/main.27fa5646.css.map",
-    "main.24301153.js.map": "/Viraasat/static/js/main.24301153.js.map",
-    "872.4f129009.chunk.js.map": "/Viraasat/static/js/872.4f129009.chunk.js.map",
-    "227.b093417b.chunk.js.map": "/Viraasat/static/js/227.b093417b.chunk.js.map",
-    "526.87785427.chunk.js.map": "/Viraasat/static/js/526.87785427.chunk.js.map",
-    "232.4892eaff.chunk.js.map": "/Viraasat/static/js/232.4892eaff.chunk.js.map",
-    "237.7a180382.chunk.js.map": "/Viraasat/static/js/237.7a180382.chunk.js.map"
+    "main.css": "/static/css/main.27fa5646.css",
+    "main.js": "/static/js/main.ea33c93f.js",
+    "static/js/872.4f129009.chunk.js": "/static/js/872.4f129009.chunk.js",
+    "static/js/227.b093417b.chunk.js": "/static/js/227.b093417b.chunk.js",
+    "static/js/526.87785427.chunk.js": "/static/js/526.87785427.chunk.js",
+    "static/js/232.4892eaff.chunk.js": "/static/js/232.4892eaff.chunk.js",
+    "static/js/237.7a180382.chunk.js": "/static/js/237.7a180382.chunk.js",
+    "static/media/computer-vision.png": "/static/media/computer-vision.0c28484f3baa99e99f73.png",
+    "static/media/Virasat-logo.png": "/static/media/Virasat-logo.cda8cac956c168ab5e77.png",
+    "static/media/deep.png": "/static/media/deep.941464ea54222a5c4c3d.png",
+    "static/media/web-dev-1.png": "/static/media/web-dev-1.84a610df4772b945d194.png",
+    "static/media/ai.png": "/static/media/ai.775e93f7680dafebe12f.png",
+    "static/media/NLP.png": "/static/media/NLP.2decab8351459c4db454.png",
+    "static/media/seo-marketing.png": "/static/media/seo-marketing.9fe9f32c8eaae4e66564.png",
+    "index.html": "/index.html",
+    "main.27fa5646.css.map": "/static/css/main.27fa5646.css.map",
+    "main.ea33c93f.js.map": "/static/js/main.ea33c93f.js.map",
+    "872.4f129009.chunk.js.map": "/static/js/872.4f129009.chunk.js.map",
+    "227.b093417b.chunk.js.map": "/static/js/227.b093417b.chunk.js.map",
+    "526.87785427.chunk.js.map": "/static/js/526.87785427.chunk.js.map",
+    "232.4892eaff.chunk.js.map": "/static/js/232.4892eaff.chunk.js.map",
+    "237.7a180382.chunk.js.map": "/static/js/237.7a180382.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27fa5646.css",
-    "static/js/main.24301153.js"
+    "static/js/main.ea33c93f.js"
   ]
 }
