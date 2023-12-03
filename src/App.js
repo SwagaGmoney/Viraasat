@@ -13,7 +13,8 @@ import MapCounter from "./Components/MapCounter";
 
 function App() {
   return (
-    <><React.Fragment >
+    <>
+    <React.Fragment >
       <Navbar />
       <RightCounter />
       <AboutUs  /> 
@@ -22,12 +23,7 @@ function App() {
       <ContactPg/>
       <MapCounter/>
       <Footer/> 
-    </React.Fragment>
-
-
-    
-      
-      
+    </React.Fragment>    
       </>
   );
 }

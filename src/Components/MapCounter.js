@@ -40,9 +40,9 @@ const MapCounter = () => {
     if (!window.google) {
       loadGoogleMapScript();
     } else {
-      window.initMap(); // Call initMap directly if the Google Maps API is already loaded
+      window.initMap(); 
     }
-  }, []); // Empty dependency array ensures this code runs once after component mount
+  }, []); 
 
   return (
     <div id="gmp-map" style={mapStyles} className="relative bg-gray-300 shadow-xl rounded-2xl lg:top-[-38em] lg:mb-[-30em] xsm:left-[5em] sm:left-40 xsm:top-[5em] xl:top-[-32em] xl:left-[42em] md:left-[10em] lg:left-[40em] "></div>
